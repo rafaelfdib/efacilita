@@ -1,0 +1,218 @@
+{
+  "tipo": "efacilita-modelos",
+  "versao": 1,
+  "exportadoEm": "2026-07-24T16:51:38.878Z",
+  "templates": [
+    {
+      "assunto": "",
+      "categoria": "lembrete",
+      "cor": "vermelho",
+      "criadoEm": 1780999815533,
+      "id": "tmq6hb0q5r9x75",
+      "nome": "Custas Pendentes",
+      "prazoDias": 2,
+      "prazoModo": "corridos",
+      "texto": "Falta recolher custas. "
+    },
+    {
+      "categoria": "lembrete",
+      "criadoEm": 1780999815533,
+      "id": "tmq6hb0q5pogaz",
+      "nome": "Tutela?",
+      "texto": "Não sei avaliar esta tutela."
+    },
+    {
+      "assunto": "",
+      "categoria": "certidao",
+      "criadoEm": 1781046639231,
+      "favorito": true,
+      "id": "tmq796m4fvbjzk",
+      "nome": "Genérica",
+      "texto": "Certifico e dou fé que\nNada mais. {{Final_Certidao}}"
+    },
+    {
+      "categoria": "lembrete",
+      "criadoEm": 1781096257399,
+      "id": "tmq82q3qv6jujv",
+      "nome": "Teimozinha",
+      "texto": "Ver dia: {HOJE+12d} "
+    },
+    {
+      "assunto": "NOMEAÇÃO PARA PERITO - PROCESSO {NUM_PROCESSO}",
+      "categoria": "email",
+      "criadoEm": 1780000000001,
+      "id": "tmemail01peritonom",
+      "nome": "Nomeação de Perito (Inicial)",
+      "texto": "{G:Prezado Sr.|Prezada Sra.|Prezado(a) Sr(a).} {PERITO}, {SAUDACOES}!\n\nPelo presente, INTIMO Vossa Senhoria de sua nomeação para atuar como {G:perito|perita} nos autos do processo digital em epígrafe, conforme r. decisão anexa.\n\nCaso necessário, a senha para acesso aos autos segue também em anexo.\n\nFavor confirmar o recebimento deste e-mail e, no prazo de 5 (cinco) dias, informar o seu aceite à incumbência."
+    },
+    {
+      "assunto": "DADOS CADASTRAIS - PROCESSO {NUM_PROCESSO}",
+      "categoria": "email",
+      "criadoEm": 1780000000002,
+      "id": "tmemail02peritodados",
+      "nome": "Solicitação de Dados do Perito (Pós-Aceite)",
+      "texto": "{G:Prezado Sr.|Prezada Sra.|Prezado(a) Sr(a).} {PERITO},\n\nAgradecemos o aceite da nomeação. Para que possamos expedir o ofício para reserva dos honorários periciais, solicito o preenchimento e envio dos dados abaixo:\n\n- Nome Completo:\n- RG:\n- CPF:\n- Data de Nascimento:\n- Estado Civil:\n- Telefone:\n- E-mail:\n- Endereço residencial (com CEP):\n- Número de inscrição (INSS, PIS ou PASEP):\n- Número de inscrição no Cadastro de Contribuinte Mobiliário (CCM):\n- Dados bancários (Conta Corrente do Banco do Brasil):\n  - Agência (com dígito):\n  - Conta Corrente (com dígito):"
+    },
+    {
+      "assunto": "INTIMAÇÃO - PROCESSO {NUM_PROCESSO}",
+      "categoria": "email",
+      "criadoEm": 1780000000003,
+      "id": "tmemail03peritodecisao",
+      "nome": "Intimação do Perito (Decisão)",
+      "texto": "{G:Prezado Sr.|Prezada Sra.|Prezado(a) Sr(a).} {PERITO},\n\nPelo presente, INTIMO Vossa Senhoria da r. decisão anexa, proferida nos autos do processo em epígrafe, de seguinte teor:\n\n\"{CONTEUDO_DOCUMENTO}\"\n\nFavor confirmar o recebimento e, no prazo de 10 (dez) dias, apresentar a devida manifestação nos autos."
+    },
+    {
+      "assunto": "INTIMAÇÃO - APRESENTAÇÃO DE LAUDO - PROCESSO {NUM_PROCESSO}",
+      "categoria": "email",
+      "criadoEm": 1780000000004,
+      "id": "tmemail04peritolaudo",
+      "nome": "Intimação do Perito (Cobrança de Laudo)",
+      "texto": "{G:Prezado Sr.|Prezada Sra.|Prezado(a) Sr(a).} {PERITO},\n\nPelo presente, INTIMO Vossa Senhoria para que, no prazo de 5 (cinco) dias, apresente o laudo pericial no processo em epígrafe, pois conforme agendamento em {VAR:Data do agendamento!:data}, já decorreu o prazo para a juntada do documento.\n\nDesde já, agradeço a colaboração."
+    },
+    {
+      "assunto": "NOMEAÇÃO PARA CURADOR ESPECIAL - PROCESSO {NUM_PROCESSO}",
+      "categoria": "email",
+      "criadoEm": 1780000000005,
+      "id": "tmemail05curador",
+      "nome": "Nomeação de Curador Especial",
+      "texto": "Prezada {CONTATO_DEFENSORIA}, bom dia!\n\nSegue ofício, em anexo, determinando a nomeação de curador especial para o processo em epígrafe.\n\nSolicito que confirme o recebimento deste e-mail."
+    },
+    {
+      "assunto": "Liberação de Honorários - {PERITO} - PROCESSO {NUM_PROCESSO}",
+      "categoria": "email",
+      "criadoEm": 1780000000006,
+      "id": "tmemail06honorarios",
+      "nome": "Liberação de Honorários (Defensoria)",
+      "texto": "Prezados(as), bom dia!\n\nSolicito a liberação dos honorários ao perito do processo em epígrafe, tendo em vista a realização da perícia a contento, conforme determinado pela r. sentença anexa.\n\nAcompanham, também, a certidão de trânsito em julgado e o ofício que confirmou a reserva de honorários.\n\nSolicito que confirmem o recebimento."
+    },
+    {
+      "assunto": "Encaminhar carta precatória - COMARCA DE {COMARCA} - MALOTE DIGITAL [{NUM_PROCESSO}]",
+      "categoria": "email",
+      "criadoEm": 1780000000007,
+      "id": "tmemail07precatenviar",
+      "nome": "Encaminhar Carta Precatória (Malote)",
+      "texto": "Prezado {CONTATO_MALOTE}, boa tarde!\n\nSolicito que encaminhe a presente carta precatória para a Comarca de {COMARCA}.\n\nSenha do processo: {VAR:Senha do processo!}"
+    },
+    {
+      "assunto": "Devolver carta precatória - COMARCA DE {COMARCA} / {VARA} - MALOTE DIGITAL [{VAR:Processo de origem!}][{NUM_PROCESSO}]",
+      "categoria": "email",
+      "criadoEm": 1780000000008,
+      "id": "tmemail08precatdevolver",
+      "nome": "Devolver Carta Precatória (Malote)",
+      "texto": "Prezado {CONTATO_MALOTE}, boa tarde!\n\nSolicito que devolva a presente carta precatória para a Comarca de {COMARCA} - {VARA}.\n\nSenha do processo: {VAR:Senha do processo!}"
+    },
+    {
+      "assunto": "{URGENTE} OFÍCIO - PROCESSO {NUM_PROCESSO}",
+      "categoria": "email",
+      "criadoEm": 1780000000009,
+      "id": "tmemail09oficiopadrao",
+      "nome": "Ofício - Padrão",
+      "texto": "Prezados(as), boa tarde!\n\nSegue ofício, em anexo, referente ao processo em epígrafe.\n\nSolicito que confirmem o recebimento deste e-mail."
+    },
+    {
+      "assunto": "OFÍCIO - PROCESSO {NUM_PROCESSO}",
+      "categoria": "email",
+      "criadoEm": 1780000000010,
+      "id": "tmemail10oficioinss",
+      "nome": "Ofício para o INSS",
+      "texto": "Prezados(as), bom dia!\n\nSegue ofício, em anexo, referente ao processo em epígrafe.\n\nSolicito que confirmem o recebimento deste e-mail."
+    },
+    {
+      "assunto": "VISTA - {NUM_PROCESSO}",
+      "categoria": "email",
+      "criadoEm": 1780000000011,
+      "id": "tmemail11vista",
+      "nome": "Vista",
+      "texto": "Prezados(as)!\n\nSegue r. decisão, anexa, abrindo vista para manifestação no processo {NUM_PROCESSO}.\n\nSegue, também, anexa, a senha do processo; solicito que confirmem o acesso ao respectivo processo.\n\nSolicito, ainda, que confirmem o recebimento deste e-mail."
+    },
+    {
+      "assunto": "REITERAÇÃO DE INTIMAÇÃO - {NUM_PROCESSO}",
+      "categoria": "email",
+      "criadoEm": 1782235235649,
+      "id": "tmqqwuczlpbjxf",
+      "nome": "Reiterar Intimação Perito",
+      "texto": "{G:Prezado Sr.|Prezada Sra.|Prezado(a) Sr(a).} {PERITO},\n\nPelo presente, reitero a INTIMAÇÃO da Vossa Senhoria de e-mail enviado em {DATA_INFORMADA}.\nFavor confirmar o recebimento e, no prazo de 05 (cinco) dias, apresentar a devida manifestação nos autos."
+    },
+    {
+      "assunto": "",
+      "categoria": "certidao",
+      "criadoEm": 1782700000001,
+      "id": "tmqcert01decurso",
+      "nome": "Certidão - Decurso de prazo",
+      "texto": "Certifico e dou fé que decorreu em {DATA_INFORMADA} o prazo legal sem que {G:o intimado|a intimada|o(a) intimado(a)} se manifestasse nos autos. Nada mais. {{Final_Certidao}}"
+    },
+    {
+      "assunto": "",
+      "categoria": "certidao",
+      "criadoEm": 1782700000004,
+      "id": "tmqcert04intperito",
+      "nome": "Certidão - Intimação do perito por telefone",
+      "texto": "Certifico que, nesta data, intimei {G:o perito|a perita} {PERITO} por telefone, conforme comprovante que segue anexo. Nada mais. {{Final_Certidao}}"
+    },
+    {
+      "assunto": "",
+      "categoria": "certidao",
+      "criadoEm": 1782246050116,
+      "id": "tmqr3a5hge8epj",
+      "nome": "Final_Certidao",
+      "texto": "Taquaritinga, {DATA:format(DD de MMMM de YYYY)}. Eu, {USUARIO:titulo}, Escrevente Técnico Judiciário."
+    }
+  ],
+  "constantes": {
+    "SAUDACOES": {
+      "faixas": [
+        {
+          "ate": 720,
+          "valor": "bom dia"
+        },
+        {
+          "ate": 1080,
+          "valor": "boa tarde"
+        }
+      ],
+      "type": "horario",
+      "value": "boa noite",
+      "values": []
+    },
+    "URGENTE": {
+      "marcadoPadrao": false,
+      "type": "marcavel",
+      "value": "[URGENTE]",
+      "values": []
+    }
+  },
+  "variaveis": {
+    "COMARCA": {
+      "enableHistory": true,
+      "format": "texto"
+    },
+    "CONTATO_DEFENSORIA": {
+      "enableHistory": true,
+      "format": "texto"
+    },
+    "CONTATO_MALOTE": {
+      "enableHistory": true,
+      "format": "texto"
+    },
+    "DATA_INFORMADA": {
+      "enableHistory": false,
+      "format": "dataextenso"
+    },
+    "PERITO": {
+      "enableHistory": true,
+      "format": "texto"
+    },
+    "VARA": {
+      "enableHistory": true,
+      "format": "texto"
+    }
+  },
+  "savedValues": {
+    "PERITO": [
+      "Wilson",
+      "Danieli",
+      "José",
+      "kkkk"
+    ]
+  }
+}
